@@ -1,0 +1,167 @@
+.up-arrow {
+  box-sizing: border-box;
+  background-color: aliceblue;
+  width: 90px;
+  position: fixed;
+  padding: 0.5em;
+  right: 15px;
+  bottom: 15px;
+  background-color: green;
+}
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.base {
+  width: 100%;
+  display: block;
+}
+.box {
+  height: 600px;
+  width: 30%;
+  background-color: orange;
+  position: relative;
+  float: left;
+  margin: 1em;
+}
+.a1,
+.a2 {
+  position: absolute;
+  width: 95%;
+  height: 45%;
+  background-color: blue;
+}
+.a1 {
+  top: 0;
+  left: 0;
+}
+.a2 {
+  bottom: 0;
+  left: 0;
+}
+
+.b1 {
+  position: absolute;
+  top: 1em;
+  width: 40%;
+  height: 40%;
+  left: 1em;
+  background-color: blue;
+}
+
+.b2 {
+  position: absolute;
+  top: 1em;
+  width: 40%;
+  right: 1em;
+  height: 40%;
+  background-color: blue;
+}
+.b3 {
+  position: absolute;
+  left: 1em;
+  width: 95%;
+  bottom: 1em;
+  right: 1em;
+  height: 40%;
+  background-color: blue;
+}
+
+.c1 {
+  position: absolute;
+  top: 1.5em;
+  left: 1em;
+  width: 45%;
+  height: 45%;
+  background-color: blue;
+}
+
+.c2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 45%;
+  background-color: blue;
+}
+
+.c3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 45%;
+  height: 45%;
+  background-color: blue;
+}
+
+.c4 {
+  position: absolute;
+  bottom: 1.5em;
+  right: 1em;
+  width: 45%;
+  height: 45%;
+  background-color: blue;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: rgb(182, 177, 177);
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.form {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  box {
+    display: block;
+    float: left;
+    width: 100%;
+    position: unset;
+  }
+  .b1,
+  .b2,
+  .b3 {
+    width: 95%;
+    height: 30%;
+    position: unset;
+    margin: 1em;
+    padding-right: 1em;
+  }
+}
