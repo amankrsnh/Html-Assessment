@@ -33,6 +33,7 @@ a {
   width: 95%;
   height: 45%;
   background-color: blue;
+  border: 1px solid black;
 }
 .a1 {
   top: 0;
@@ -50,6 +51,7 @@ a {
   height: 40%;
   left: 1em;
   background-color: blue;
+  border: 1px solid black;
 }
 
 .b2 {
@@ -59,6 +61,7 @@ a {
   right: 1em;
   height: 40%;
   background-color: blue;
+  border: 1px solid black;
 }
 .b3 {
   position: absolute;
@@ -68,6 +71,7 @@ a {
   right: 1em;
   height: 40%;
   background-color: blue;
+  border: 1px solid black;
 }
 
 .c1 {
@@ -77,6 +81,7 @@ a {
   width: 45%;
   height: 45%;
   background-color: blue;
+  border: 1px solid black;
 }
 
 .c2 {
@@ -86,6 +91,7 @@ a {
   width: 45%;
   height: 45%;
   background-color: blue;
+  border: 1px solid black;
 }
 
 .c3 {
@@ -95,6 +101,7 @@ a {
   width: 45%;
   height: 45%;
   background-color: blue;
+  border: 1px solid black;
 }
 
 .c4 {
@@ -104,6 +111,7 @@ a {
   width: 45%;
   height: 45%;
   background-color: blue;
+  border: 1px solid black;
 }
 label {
   padding: 12px 12px 12px 0;
